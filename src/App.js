@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import { Router, browserHistory, Route, Link } from "react-router";
 
 import "./App.css";
+import About from "./Components/About/About";
+import Home from "./Components/HomeFolder/Home";
+import NavbarComponent from "./Components/NavbarFolder/NavbarComponent";
 
 const Page = ({ title }) => (
   <div className="App">
-    <div className="App-header">
+    {/* <div className="App-header">
       <h2>{title}</h2>
     </div>
     <p className="App-intro">This is the {title} page.</p>
@@ -17,24 +20,27 @@ const Page = ({ title }) => (
     </p>
     <p>
       <Link to="/settings">Settings</Link>
-    </p>
+    </p> */}
   </div>
 );
 
-const Home = (props) => <Page title="Home" />;
+// const Home = (props) => <Page title="Home" />;
 
-const About = (props) => <Page title="About" />;
+// const About = (props) => <Page title="About" />;
 
 const Settings = (props) => <Page title="Settings" />;
 
 class App extends Component {
   render() {
     return (
-      <Router history={browserHistory}>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/settings" component={Settings} />
-      </Router>
+      <div>
+        <NavbarComponent />
+        <Router history={browserHistory}>
+          <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/settings" component={Settings} />
+        </Router>
+      </div>
     );
   }
 }
