@@ -602,8 +602,8 @@ img {
   width: 100%;
 }
 .home_banner_area .banner_inner .home_left_img {
-  padding-top: 95px;
-  padding-bottom: 230px;
+  padding-top: 65px;
+  padding-bottom: 60px;
 }
 .home_banner_area .banner_inner .col-lg-6 {
   vertical-align: middle;
@@ -628,7 +628,8 @@ img {
 }
 .home_banner_area .banner_inner .banner_content .watch_video {
   margin: 0 30px;
-  font-size: 12px;
+  font-size: 20px;
+
   text-transform: uppercase;
 }
 

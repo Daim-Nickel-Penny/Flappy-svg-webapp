@@ -18,7 +18,7 @@ function SubscribeComp() {
                 <div id="mc_embed_signup">
                   <form
                     target="_blank"
-                    action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                    action=""
                     method="get"
                     className="subscribe_form relative"
                   >
@@ -31,7 +31,12 @@ function SubscribeComp() {
                         required=""
                         type="email"
                       ></input>
-                      <button className="btn primary_btn">Subscribe</button>
+                      <button
+                        className="btn primary_btn"
+                        style={{ marginTop: "-6px", marginRight: "-18px" }}
+                      >
+                        Subscribe
+                      </button>
                     </div>
                   </form>
                 </div>

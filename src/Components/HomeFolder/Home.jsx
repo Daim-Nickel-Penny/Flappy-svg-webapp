@@ -2,9 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 import homeLeft from "../../assets/images/home-left.png";
-import "./Home.css";
+
 import Navbar from "../NavbarFolder/NavbarComponent";
 import About from "../About/About";
+import homeRes from "../../res/homeRes";
+import Contributions from "../Contributions/Contributions";
 export const MainHeader = styled.h1`
   color: red;
   font-weight: 700;
@@ -27,20 +29,22 @@ export default function Home() {
               <div className="col-lg-6">
                 <div className="banner_content">
                   <h2>
-                    FOSSASIA <br />
+                    {homeRes.headerText[1]} <br />
                   </h2>
                   <h3 style={{ textAlign: "center" }}>
-                    Presents
+                    {homeRes.headerText[3]}
                     <br />
                   </h3>
                   <h2>
-                    Flappy SVG <br />
+                    {homeRes.headerText[2]}
+                    <br />
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod temp or incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim.
+                    {homeRes.details[1]}
+                    <br />
+                    {homeRes.details[2]}
                   </p>
+                  <p></p>
                   <div className="d-flex align-items-center">
                     <a
                       id="play-home-video"
@@ -49,9 +53,7 @@ export default function Home() {
                     >
                       <span></span>
                     </a>
-                    <div className="watch_video text-uppercase">
-                      watch the video
-                    </div>
+                    <div className="watch_video text-uppercase">Play Now</div>
                   </div>
                 </div>
               </div>
