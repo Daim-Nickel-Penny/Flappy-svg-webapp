@@ -4,6 +4,7 @@ import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
 import FaceIcon from "@material-ui/icons/Face";
 import ListOfContributions from "./ContributionsList";
+import contributionsRes from "../../res/contributionsRes";
 function Contributions() {
   return (
     <div>
@@ -11,7 +12,12 @@ function Contributions() {
         {ListOfContributions.contriList.map((item) => {
           return (
             <li>
-              <Chip size="small" icon={<FaceIcon />} label={item.name} />
+              <Chip
+                size="small"
+                icon={<FaceIcon />}
+                label={item.name}
+                onClick={() => window.open(item.githubLink)}
+              />
             </li>
           );
         })}

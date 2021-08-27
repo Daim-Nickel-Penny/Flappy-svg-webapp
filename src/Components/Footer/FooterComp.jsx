@@ -6,7 +6,6 @@ function FooterComp() {
       <footer class="footer_area section_gap_top">
         <div class="container">
           <div class="row footer_inner">
-            <div class="col-lg-4 col-sm-6 "></div>
             <div class="col-lg-3 col-sm-6 ">
               <aside class="f_widget ab_widget">
                 <div class="f_title">
@@ -60,11 +59,26 @@ function FooterComp() {
                 </ul>
               </aside>
             </div>
+            <div class="col-lg-3 col-sm-6">
+              <aside class="f_widget ab_widget">
+                <div class="f_title">
+                  <h4>About Me</h4>
+                </div>
+                <ul>
+                  <li>
+                    <a href="https://daimk1.web.app/"></a>About
+                  </li>
+                  <li>
+                    <a href="https://github.com/Daim-Nickel-Penny"></a>
+                    Github
+                  </li>
+                </ul>
+              </aside>
+            </div>
           </div>
           <div class="row single-footer-widget">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="copy_right_text">
-                <p>Made by Daim Khan.</p>
                 <p>Built using React</p>
               </div>
             </div>

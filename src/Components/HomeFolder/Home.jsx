@@ -7,6 +7,8 @@ import Navbar from "../NavbarFolder/NavbarComponent";
 import About from "../About/About";
 import homeRes from "../../res/homeRes";
 import Contributions from "../Contributions/Contributions";
+import LottieAnimation from "../../Lottie";
+import flappyAnim from "../Animations/flappyAnim.json";
 export const MainHeader = styled.h1`
   color: red;
   font-weight: 700;
@@ -49,7 +51,7 @@ export default function Home() {
                     <a
                       id="play-home-video"
                       className="video-play-button"
-                      href="https://www.youtube.com/watch?v=vParh5wE-tM"
+                      href="http://flappy.fossasia.org/index.html"
                     >
                       <span></span>
                     </a>

@@ -689,16 +689,16 @@ img {
 
 .banner_area {
   position: relative;
-  min-height: 430px;
+  min-height: 200px;
   z-index: 1;
-  /* background: url(../img/banner/home-banner.jpg) no-repeat center center; */
+  background: url(./assets/images/home-banner.jpg) no-repeat center center;
   background-size: cover;
 }
 .banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 430px;
+  min-height: 130px;
   z-index: 1;
 }
 .banner_area .banner_inner .banner_content h2 {
@@ -3635,7 +3635,7 @@ h6 {
 ============================================================================================ */
 .pricing_area {
   position: relative;
-  padding: 120px 0 80px;
+  padding: 75px 0 80px;
 }
 
 .pricing_item {

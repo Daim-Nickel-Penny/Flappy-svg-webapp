@@ -3,6 +3,8 @@ import { Router, browserHistory, Route, Link } from "react-router";
 
 import "./App.css";
 import About from "./Components/About/About";
+import Controls from "./Components/Controls/Controls";
+import Download from "./Components/Download/Download";
 import Home from "./Components/HomeFolder/Home";
 import NavbarComponent from "./Components/NavbarFolder/NavbarComponent";
 
@@ -38,7 +40,8 @@ class App extends Component {
         <Router history={browserHistory}>
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/settings" component={Settings} />
+          <Route path="/downloads" component={Download} />
+          <Route path="/controls" component={Controls} />
         </Router>
       </div>
     );
