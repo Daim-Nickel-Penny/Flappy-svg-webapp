@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Flappy-svg-webapp/static/css/main.64edadeb.chunk.css",
+    "main.js": "/Flappy-svg-webapp/static/js/main.165d8168.chunk.js",
+    "main.js.map": "/Flappy-svg-webapp/static/js/main.165d8168.chunk.js.map",
+    "runtime-main.js": "/Flappy-svg-webapp/static/js/runtime-main.d4c1151c.js",
+    "runtime-main.js.map": "/Flappy-svg-webapp/static/js/runtime-main.d4c1151c.js.map",
+    "static/css/2.818011ed.chunk.css": "/Flappy-svg-webapp/static/css/2.818011ed.chunk.css",
+    "static/js/2.8973d633.chunk.js": "/Flappy-svg-webapp/static/js/2.8973d633.chunk.js",
+    "static/js/2.8973d633.chunk.js.map": "/Flappy-svg-webapp/static/js/2.8973d633.chunk.js.map",
+    "index.html": "/Flappy-svg-webapp/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/Flappy-svg-webapp/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.64edadeb.chunk.css.map": "/Flappy-svg-webapp/static/css/main.64edadeb.chunk.css.map",
+    "static/js/2.8973d633.chunk.js.LICENSE.txt": "/Flappy-svg-webapp/static/js/2.8973d633.chunk.js.LICENSE.txt",
+    "static/media/about_img.22cc63f5.png": "/Flappy-svg-webapp/static/media/about_img.22cc63f5.png",
+    "static/media/ct1.d1a40595.png": "/Flappy-svg-webapp/static/media/ct1.d1a40595.png",
+    "static/media/ct2.fae90e61.png": "/Flappy-svg-webapp/static/media/ct2.fae90e61.png",
+    "static/media/App.css": "/Flappy-svg-webapp/static/media/home-banner.e01867eb.jpg",
+    "static/media/home-left.2fe22fab.png": "/Flappy-svg-webapp/static/media/home-left.2fe22fab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4c1151c.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.8973d633.chunk.js",
+    "static/css/main.64edadeb.chunk.css",
+    "static/js/main.165d8168.chunk.js"
+  ]
+}
