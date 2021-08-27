@@ -1,6 +1,0 @@
-ul > li {
-  display: inline-block;
-  margin: 1px 5px;
-  zoom: 1;
-  *display: inline;
-}
